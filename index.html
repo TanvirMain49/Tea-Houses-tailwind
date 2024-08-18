@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Bebas+Neue&family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+
     <!-- font awesome cdn -->
     <script
       src="https://kit.fontawesome.com/99a4753299.js"
@@ -29,10 +30,49 @@
           }
         }
       </script>
+      <style>
+        .font-style{
+        font-family: "Roboto", system-ui;
+      }
+      </style>
   </head>
 
   <body>
+    <!-- main content -->
+     <main class="max-w-screen-xl mx-auto px-16 lg: px-26 font-style">
 
+        <!-- header section -->
+         <header class="md:flex pt-10 mb-20 ">
+            <!-- text content -->
+             <div>
+                <h1 class="text-5xl md:text-7xl font-bold mb-7">It's good <br>
+                    tea time at The <br>  Tea House</h1>
+                    <p class="text-gray-500 md:w-3/4 mb-7">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <button class="bg-gradient-to-r from-orange-400 to-red-500 px-5 py-3 rounded-lg text-white font-bold ">Explore More <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+
+             </div>
+
+             <!-- img content -->
+              <div class="relative">
+                <!-- img -->
+                    <div class="sm: mt-10">
+                        <img class="w-full" src="images/banner.png" alt="">
+                    </div>
+                    <!-- card -->
+                    <div class="flex items-center gap-x-3 bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-40 md:top-96 md:left-32 lg:left-28 ">
+                        <!-- icon -->
+                            <div class="text-3xl text-orange-300"><i class="fa-solid fa-star"></i></div>
+                        <!-- text -->
+                            <div>
+                                <h2 class="text-3xl font-semibold">5.00</h2>
+                                <p class="text-gray-500">Trust Pilot Ratings</p>
+                            </div>
+                    </div>
+              </div>
+         </header>
+
+     </main>
 
   </body>
 </html>
